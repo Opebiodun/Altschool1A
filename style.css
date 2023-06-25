@@ -1,0 +1,415 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --font-size-sm: 10px;
+  --font-size-md: 15px;
+  --font-size-lg: 20px;
+  font-family: "gilroy";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0.5rem
+}
+
+.firstpage {
+  margin: 0;
+  background-image: linear-gradient(to right,
+      rgba(200, 192, 203, 0.5),
+      rgba(255, 255, 200, 0.2));
+  position: relative;
+  padding-bottom: 50px;
+
+}
+
+
+.main_container {
+  height: 80px;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+}
+
+.Logo {
+  position: relative;
+  margin-top: -10px;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+
+}
+
+li {
+  text-align: center;
+}
+
+li:nth-child(1) {
+  color: blue;
+}
+
+li:nth-child(6) {
+  color: blue;
+}
+
+button {
+  background: rgba(0, 101, 254, 1);
+  border-color: rgba(0, 101, 254, 1);
+  color: white;
+  width: 142px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 100px;
+  margin-top: -1rem;
+  outline: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero_container {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  line-height: 3.0rem;
+  margin-top: 2rem;
+
+}
+
+.PText {
+  width: 200px;
+  font-size: small;
+  text-align: center;
+  color: black;
+}
+
+.signup {
+  display: flex;
+  margin-top: 50px;
+  gap: 2.5rem;
+  justify-content: center;
+
+}
+
+.Group2 {
+  margin-top: 3.0rem;
+  padding-left: 25rem;
+}
+
+.Group2 {
+  margin-top: 3.0rem;
+  padding-left: 25rem;
+}
+
+ul {
+  display: flex;
+  gap: 4rem
+}
+
+span {
+  color: blue
+}
+
+.container2 {
+  background-color: #F9FBFD;
+  display: flex;
+  font-size: medium;
+  padding: 40px 0;
+  justify-content: space-evenly;
+
+}
+
+strong {
+  font-size: x-large;
+}
+
+
+.flex_container {
+  display: flex;
+  margin: 4rem;
+  font-size: medium;
+  padding-left: 3rem;
+  width: 70rem;
+  line-height: 1.5;
+  gap: 2.5rem;
+}
+
+.flex_container2 {
+  display: flex;
+  margin: 4rem;
+  font-size: medium;
+  padding-left: 30rem;
+  line-height: 1.5;
+  gap: 2.5rem;
+}
+
+
+
+.flex-item {
+  height: 200px;
+  padding: 20px;
+
+}
+
+.priceperfect {
+  margin-bottom: 3rem;
+}
+
+.priceperfect h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+  gap: 1rem;
+}
+
+.priceperfect p {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin: 8px;
+  text-align: center;
+}
+
+
+.price {
+  width: 18rem;
+  height: 22rem;
+  border: 1px solid rgb(146, 146, 218);
+  border-radius: 8px;
+  margin-top: 5rem;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.sec {
+  width: 50rem;
+  height: 5rem;
+  border: 1px solid orange;
+  margin-top: 3rem;
+  margin: 0 auto;
+
+}
+
+#up {
+  height: 30rem;
+  color: #F9FBFD;
+  background-color: #1E3448;
+  transform: translateY(-4rem)
+}
+
+#up p,
+h1 {
+  margin-top: 26px;
+  padding-left: 20px;
+}
+
+.price p,
+h1 {
+  margin-top: 20px;
+  padding-left: 30px;
+
+}
+
+.spricing {
+  display: flex;
+  margin-top: 20px;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+#button1,
+#button2 {
+  width: 12rem;
+  height: 3rem;
+  font-size: medium;
+}
+
+#button1 {
+  background-color: #F9FBFD;
+  color: blue;
+}
+
+.formimage {
+  margin-top: 7rem;
+
+}
+
+
+.form {
+  border: 1px solid rgb(146, 146, 218);
+  border-radius: 10px;
+  width: 30rem;
+  height: 24rem;
+  padding-top: 2rem;
+  margin-top: -27rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+  background-color: whitesmoke;
+  position: absolute;
+  margin-left: 27rem;
+}
+
+.form input {
+
+  width: 25rem;
+  padding-left: 2rem;
+  height: 3.2rem;
+  border-radius: 10px;
+  border: 1px solid #3284FF;
+
+
+}
+
+.form select {
+  width: 13rem;
+  padding-left: 2rem;
+  height: 3.2rem;
+  border-radius: 8px;
+  border: 1px solid #3284FF;
+
+}
+
+.form #forminput {
+  width: 11rem;
+  padding-left: 2rem;
+  height: 3.2rem;
+  border-radius: 8px;
+  border: 1px solid #3284FF;
+
+}
+
+.form button {
+  width: 25rem;
+  padding-left: 2rem;
+  height: 3.2rem;
+  border-radius: 8px;
+  border: 1px solid #3284FF;
+
+}
+
+.form p {
+  line-height: 5rem;
+}
+
+.accordion1 h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 3rem;
+
+}
+
+.accordion {
+  width: 800px;
+  margin: 20px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+
+}
+
+.accordion .container {
+  margin: 5px 5px;
+  line-height: 25px;
+
+
+}
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid rgb(236, 233, 233);
+
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.sideimage {
+  position: absolute;
+  margin-top: -47rem;
+  margin-left: -20rem;
+}
+
+.revimage {
+  margin-top: 5.5rem;
+  margin-bottom: 4rem;
+
+}
+
+.revh {
+  position: absolute;
+  margin-top: -16rem;
+  margin-left: 15rem;
+  color: white;
+  font-size: 50px;
+  font-family: "gilro-gold";
+}
+
+#revb {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: 35rem;
+  width: 12.5rem;
+  height: 3rem;
+  font-size: medium;
+
+}
+
+.foot_container {
+  position: absolute;
+  display: flex;
+  margin: 4rem;
+  font-size: medium;
+  padding-left: 3rem;
+  width: 70rem;
+  line-height: 1.5;
+  gap: 2.5rem;
+  margin-top: -32rem;
+}
+
+.foot_container2 {
+  position: absolute;
+  display: flex;
+  margin: 4rem;
+  font-size: medium;
+  padding-left: 18rem;
+  line-height: 1.5;
+  gap: 2.5rem;
+  margin-top: -21rem;
+
+}
+
+.flex-item {
+  height: 200px;
+  padding: 20px;
+
+}
